@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/EvgeniiGoIT/goit-react-hw-02-reader/static/css/main.efdee585.chunk.css",
-    "main.js": "/EvgeniiGoIT/goit-react-hw-02-reader/static/js/main.7533e315.chunk.js",
-    "main.js.map": "/EvgeniiGoIT/goit-react-hw-02-reader/static/js/main.7533e315.chunk.js.map",
-    "runtime-main.js": "/EvgeniiGoIT/goit-react-hw-02-reader/static/js/runtime-main.8b3c7f11.js",
-    "runtime-main.js.map": "/EvgeniiGoIT/goit-react-hw-02-reader/static/js/runtime-main.8b3c7f11.js.map",
-    "static/js/2.dfc53d8c.chunk.js": "/EvgeniiGoIT/goit-react-hw-02-reader/static/js/2.dfc53d8c.chunk.js",
-    "static/js/2.dfc53d8c.chunk.js.map": "/EvgeniiGoIT/goit-react-hw-02-reader/static/js/2.dfc53d8c.chunk.js.map",
-    "index.html": "/EvgeniiGoIT/goit-react-hw-02-reader/index.html",
-    "precache-manifest.b7af940265a4b84425b79cf9d9557521.js": "/EvgeniiGoIT/goit-react-hw-02-reader/precache-manifest.b7af940265a4b84425b79cf9d9557521.js",
-    "service-worker.js": "/EvgeniiGoIT/goit-react-hw-02-reader/service-worker.js",
-    "static/css/main.efdee585.chunk.css.map": "/EvgeniiGoIT/goit-react-hw-02-reader/static/css/main.efdee585.chunk.css.map"
+    "main.css": "/goit-react-hw-02-reader/static/css/main.efdee585.chunk.css",
+    "main.js": "/goit-react-hw-02-reader/static/js/main.7533e315.chunk.js",
+    "main.js.map": "/goit-react-hw-02-reader/static/js/main.7533e315.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-02-reader/static/js/runtime-main.21ebc90b.js",
+    "runtime-main.js.map": "/goit-react-hw-02-reader/static/js/runtime-main.21ebc90b.js.map",
+    "static/js/2.dfc53d8c.chunk.js": "/goit-react-hw-02-reader/static/js/2.dfc53d8c.chunk.js",
+    "static/js/2.dfc53d8c.chunk.js.map": "/goit-react-hw-02-reader/static/js/2.dfc53d8c.chunk.js.map",
+    "index.html": "/goit-react-hw-02-reader/index.html",
+    "precache-manifest.374f0275ad573c29d44601966f59eb5e.js": "/goit-react-hw-02-reader/precache-manifest.374f0275ad573c29d44601966f59eb5e.js",
+    "service-worker.js": "/goit-react-hw-02-reader/service-worker.js",
+    "static/css/main.efdee585.chunk.css.map": "/goit-react-hw-02-reader/static/css/main.efdee585.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b3c7f11.js",
+    "static/js/runtime-main.21ebc90b.js",
     "static/js/2.dfc53d8c.chunk.js",
     "static/css/main.efdee585.chunk.css",
     "static/js/main.7533e315.chunk.js"
