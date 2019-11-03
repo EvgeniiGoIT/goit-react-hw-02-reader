@@ -18,23 +18,13 @@ class Reader extends Component {
   state = {
     indexValue: 1,
   };
-  handleDecrement = () => {
-    const { indexValue } = this.state;
-    if (indexValue > 1) {
-      this.setState(prevState => ({
-        indexValue: prevState.indexValue - 1,
-      }));
-    }
-  };
-
-  handleIncrement = () => {
-    const { indexValue } = this.state;
-    const { items } = this.props;
-    if (indexValue < items.length) {
-      this.setState(prevState => ({
-        indexValue: prevState.indexValue + 1,
-      }));
-    }
+  handleButton = type => {
+    this.setState(prevState => {
+      let { indexValue } = prevState;
+      return {
+        indexValue: type === 'increment' ? indexValue + 1 : indexValue - 1,
+      };
+    });
   };
   render() {
     const { items } = this.props;
@@ -45,8 +35,8 @@ class Reader extends Component {
         <Controls
           indexValue={indexValue}
           itemsLength={items.length}
-          onIncrement={this.handleIncrement}
-          onDecrement={this.handleDecrement}
+          onIncrement={this.handleButton}
+          onDecrement={this.handleButton}
         />
         <Counter itemsLength={items.length} indexValue={indexValue} />
         <Publication title={title} text={text} />
